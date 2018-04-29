@@ -21,6 +21,8 @@ Scan the following code with WeChat to see the real-world effects.
 Use inside [mpvue SFC](http://mpvue.com/mpvue/#vue_1), update `this.temperatureReading` then the number will change accordingly with elegant animation.
 
 ```vue
+// src/pages/home/home.vue
+
 <template>
   <p class="temperature">
     <AnimatedNumber
