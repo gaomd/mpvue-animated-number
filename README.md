@@ -10,12 +10,12 @@ A animated number component for mpvue (WeChat Mini Program).
 
 ## Usage
 
-Use inside mpvue SFC, update `this.temperatureRead` and the number will change with animation.
+Use inside mpvue SFC, update `this.temperatureReading` and the number will change with animation.
 
 ```vue
 <template>
   <p class="temperature">
-    <AnimatedNumber :value="temperatureRead" :precision="2"></AnimatedNumber>
+    <AnimatedNumber :value="temperatureReading" :precision="2"></AnimatedNumber>
   </p>
 </template>
 
@@ -28,7 +28,7 @@ Use inside mpvue SFC, update `this.temperatureRead` and the number will change w
     },
     data() {
       return {
-        temperatureRead: 3.14,
+        temperatureReading: 3.14,
       };
     },
   }
