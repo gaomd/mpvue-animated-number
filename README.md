@@ -14,7 +14,7 @@ Scan the following code with WeChat to see the real-world effects.
 
 ## Installation
 
-    $ npm i --save gaomd/mpvue-animated-number
+    $ npm i --save @gaomd/mpvue-animated-number
 
 ## Usage
 
