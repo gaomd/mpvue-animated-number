@@ -1,6 +1,6 @@
 # mpvue-animated-number
 
-微信小程序 [mpvue](https://github.com/Meituan-Dianping/mpvue) 数字更新动画组件。
+微信小程序 [mpvue](https://github.com/Meituan-Dianping/mpvue) 数字更新滚动动画组件。
 
 An animated number component for [mpvue](https://github.com/Meituan-Dianping/mpvue) (a framework to develop WeChat Mini Program).
 
