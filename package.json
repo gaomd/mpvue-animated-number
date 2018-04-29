@@ -1,0 +1,26 @@
+{
+  "name": "@gaomd/mpvue-animated-number",
+  "version": "0.1.0",
+  "description": "A animated number component for mpvue",
+  "main": "src/AnimatedNumber.vue",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gaomd/mpvue-animated-number.git"
+  },
+  "keywords": [
+    "mpvue",
+    "wechat",
+    "wechat mini program",
+    "vue",
+    "vue animate number",
+    "vue animated number",
+    "vue animitable number"
+  ],
+  "author": "Mengdi Gao",
+  "license": "MIT",
+  "homepage": "https://github.com/gaomd/mpvue-animated-number",
+  "devDependencies": {},
+  "dependencies": {
+    "@tweenjs/tween.js": "^17.2.0"
+  }
+}
