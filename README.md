@@ -46,3 +46,11 @@ Use inside mpvue SFC, update `this.temperatureReading` and the number will chang
   }
 </style>
 ```
+
+## License
+
+Copyright (c) 2018 Mengdi Gao
+
+Based on MIT Licensed [Vue.js documentation](https://github.com/vuejs/vuejs.org/blob/master/src/v2/guide/transitioning-state.md).
+
+This software is licensed under the [MIT License](LICENSE).
