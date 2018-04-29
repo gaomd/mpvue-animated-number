@@ -2,28 +2,32 @@
 
 微信小程序 mpvue 数字更新动画组件。
 
-A animated number component for mpvue (WeChat Mini Program).
+A animated number component for [mpvue](https://github.com/Meituan-Dianping/mpvue) (a framework to develop WeChat Mini Program).
 
 ## Demo
 
-微信扫一扫查看真实效果。
+微信扫一扫以下小程序码查看真实效果。
 
-Scan with WeChat to see the real-world effects.
+Scan the following code with WeChat to see the real-world effects.
 
 ![WeChat Mini Program Scan Code](docs/wxmp-scan-code-430.jpg)
 
 ## Installation
 
-    npm i --save gaomd/mpvue-animated-number
+    $ npm i --save gaomd/mpvue-animated-number
 
 ## Usage
 
-Use inside mpvue SFC, update `this.temperatureReading` and the number will change with animation.
+Use inside [mpvue SFC](http://mpvue.com/mpvue/#vue_1), update `this.temperatureReading` then the number will change accordingly with elegant animation.
 
 ```vue
 <template>
   <p class="temperature">
-    <AnimatedNumber :value="temperatureReading" :precision="2"></AnimatedNumber>
+    <AnimatedNumber
+      :value="temperatureReading"
+      :precision="2"
+    >
+    </AnimatedNumber>
   </p>
 </template>
 
