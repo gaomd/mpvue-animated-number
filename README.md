@@ -4,6 +4,14 @@
 
 A animated number component for mpvue (WeChat Mini Program).
 
+## Demo
+
+微信扫一扫查看真实效果。
+
+Scan with WeChat to see the real-world effects.
+
+![WeChat Mini Program Scan Code](docs/wxmp-scan-code-430.jpg)
+
 ## Installation
 
     npm i --save gaomd/mpvue-animated-number
