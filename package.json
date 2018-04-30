@@ -1,6 +1,6 @@
 {
   "name": "@gaomd/mpvue-animated-number",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "微信小程序 mpvue 数字更新滚动动画组件 / An animated number component for mpvue",
   "main": "dist/AnimatedNumber.vue",
   "scripts": {
@@ -12,6 +12,11 @@
   },
   "keywords": [
     "mpvue",
+    "wepy",
+    "微信小程序",
+    "小程序",
+    "微信",
+    "weixin",
     "wechat",
     "wechat mini program",
     "vue",
