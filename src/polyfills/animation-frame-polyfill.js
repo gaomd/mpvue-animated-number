@@ -13,20 +13,19 @@
 const frameDuration = 16; // milliseconds
 let expectedOrLastCallTime = 0;
 
-export default {
-  /**
-   * @param callback
-   * @returns {number} The Request ID
-   */
-  requestAnimationFrame(callback) {
-    const currentTime = Date.now();
-    expectedOrLastCallTime = Math.max(expectedOrLastCallTime + frameDuration, currentTime);
+/**
+ * @param callback
+ * @returns {number} The Request ID
+ */
+export function requestAnimationFrame(callback) {
+  const currentTime = Date.now();
+  expectedOrLastCallTime = Math.max(expectedOrLastCallTime + frameDuration, currentTime);
 
-    return setTimeout(() => {
-      callback(Date.now());
-    }, expectedOrLastCallTime - currentTime);
-  },
-  cancelAnimationFrame(requestId) {
-    clearTimeout(requestId);
-  },
+  return setTimeout(() => {
+    callback(Date.now());
+  }, expectedOrLastCallTime - currentTime);
+}
+
+export function cancelAnimationFrame(requestId) {
+  clearTimeout(requestId);
 }

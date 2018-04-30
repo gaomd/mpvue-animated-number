@@ -33,7 +33,7 @@ module.exports = [
     entry: path.resolve(__dirname, 'src/polyfills/animation-frame-polyfill.js'),
     output: {
       filename: 'polyfills/animation-frame-polyfill.js',
-      libraryTarget: 'commonjs',
+      libraryTarget: 'umd',
       library: '@gaomd/mpvue-animated-number/polyfills/animation-frame-polyfill',
     }
   })

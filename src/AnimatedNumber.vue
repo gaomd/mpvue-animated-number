@@ -6,7 +6,7 @@
 
 <script>
   import TWEEN from '@tweenjs/tween.js';
-  import af from './polyfills/animation-frame-polyfill';
+  import { requestAnimationFrame } from './polyfills/animation-frame-polyfill';
 
   // Required in mpvue to prevent TWEEN throw errors
   TWEEN.now = Date.now;
@@ -41,7 +41,7 @@
 
         function animate() {
           if (TWEEN.update()) {
-            af.requestAnimationFrame(animate)
+            requestAnimationFrame(animate)
           }
         }
 
