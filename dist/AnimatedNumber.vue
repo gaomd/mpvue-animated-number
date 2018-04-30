@@ -1,7 +1,5 @@
 <template>
-  <div>
-    <span>{{ tweeningValue }}</span>
-  </div>
+  <span>{{ tweeningValue }}</span>
 </template>
 
 <script>
