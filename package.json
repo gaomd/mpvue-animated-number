@@ -1,6 +1,6 @@
 {
   "name": "@gaomd/mpvue-animated-number",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "微信小程序 mpvue 数字更新滚动动画组件 / An animated number component for mpvue",
   "main": "dist/AnimatedNumber.vue",
   "scripts": {
